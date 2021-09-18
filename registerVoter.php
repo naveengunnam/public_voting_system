@@ -9,12 +9,6 @@
                color: white;
 			
             }
-            input{
-                width: 250px;
-                padding: 10px;
-                margin: 5px;
-                border-radius: 10px;
-            }
             hr{
                 align: center;
                 width: 500px;
@@ -43,13 +37,11 @@
             <br>
             <input type="text" placeholder="Contact" name="contact" required>
             <br>
-            <input  class="btn btn-primary" type="submit" name="submit" value="Register">
+            <input  type="submit" name="submit" value="Register">
         </form>
         <hr>
         
     </center>
-        <?php
-            
-        ?>
+        
     </body>
 </html>
