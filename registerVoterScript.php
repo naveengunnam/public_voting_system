@@ -26,7 +26,7 @@
     }
     </style>
     <center>
-        <a href="./index.php">Home</a>
+        <a href="index.php">Home</a>
     </center>
 <link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="master.css">
