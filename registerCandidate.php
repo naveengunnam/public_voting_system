@@ -10,7 +10,7 @@ and open the template in the editor.
         <title></title>
         <style>
             body{
-               background-color: #27ace854;
+               background-color: white;
 			
             }
             input{
@@ -24,8 +24,8 @@ and open the template in the editor.
                 width: 500px;
             }
         </style>
-<link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet"> 
-<link rel="stylesheet" type="text/css" href="master.css">
+	<link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="master.css">
     </head>
     <body>
     <center>
@@ -42,7 +42,7 @@ and open the template in the editor.
             <br>
             <input type="text" placeholder="Contact" name="contact" required>
             <br>
-            <input  class="btn btn-primary" type="submit" name="submit" value="Register">
+            <input  type="submit" name="submit" value="Register">
         </form>
         <hr>
         
