@@ -41,6 +41,7 @@ a{
 
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
+      <p><mark><?php if(isset($_GET['error'])){ echo $_GET['error']; } ?></mark> </p>
       <button type="submit" >Login</button>
       <br>
       <a href="index.php">New User? Register </a>
