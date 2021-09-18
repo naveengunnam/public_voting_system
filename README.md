@@ -1,4 +1,4 @@
-<h2>Public-Voting-System</h2>
+<h2>PUBLIC-VOTING-SYSTEM</h2>
 <h2>Abstract</h2><br>
 Public voting system can be used to conduct elections for people , students in which they
 can vote and elect their representative , voters can register and can cast their vote . <br>
