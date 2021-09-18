@@ -6,8 +6,8 @@ session_start();
     $con = mysqli_connect("localhost", "root", "", "publicvote") or die (mysqli_error($con));
         
     echo '<br><h1><center>Public Voting System</center></h1>';
-   echo '<h3><center>Your details has successfully been recorded</center></h3>';
-  // if(isset($_POST['submitIns'])){
+    echo '<h3><center>Your details has successfully been recorded</center></h3>';
+  // if(isset($_POST['submitcand'])){
         echo "<center><hr>"."Your details are:<br> ";
         $name = $_POST["name"];
         $email = $_POST["email"];
@@ -20,8 +20,7 @@ session_start();
 
         $insert_query = "insert into candidate(name, email, contact) VALUES('$name','$email','$phone')";
         $insert_submit= mysqli_query($con, $insert_query) or die(mysqli_error($con));
-   //} elseif (isset($_POST['submit'])) {
-//}
+   //} 
   ?>
 <style>
     hr{
